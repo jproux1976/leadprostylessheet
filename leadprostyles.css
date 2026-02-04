@@ -1,10 +1,13 @@
-/* Target ALL buttons including HighLevel custom IDs */
-button, 
-.button, 
-.btn,
-input[type="submit"],
-input[type="button"],
-[id^="button-"],
-[class*="button"] {
+/* More specific selector to override HighLevel */
+.hl_page-preview--content [class*="cbutton-"],
+[class*="cbutton-"] {
   background: linear-gradient(135deg, #3b82f6, #10b981) !important;
+  background-color: transparent !important;
+}
+
+/* Also target button IDs */
+.hl_page-preview--content [id^="button-"],
+[id^="button-"] {
+  background: linear-gradient(135deg, #3b82f6, #10b981) !important;
+  background-color: transparent !important;
 }
