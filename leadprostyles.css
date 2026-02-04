@@ -1,10 +1,10 @@
-/* styles.css */
-
-/* Button styles */
+/* Target ALL buttons including HighLevel custom IDs */
 button, 
 .button, 
 .btn,
 input[type="submit"],
-input[type="button"] {
+input[type="button"],
+[id^="button-"],
+[class*="button"] {
   background: linear-gradient(135deg, #3b82f6, #10b981) !important;
 }
