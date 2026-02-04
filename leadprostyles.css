@@ -1,0 +1,10 @@
+/* styles.css */
+
+/* Button styles */
+button, 
+.button, 
+.btn,
+input[type="submit"],
+input[type="button"] {
+  background: linear-gradient(135deg, #3b82f6, #10b981) !important;
+}
